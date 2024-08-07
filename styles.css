@@ -20,3 +20,67 @@
     font-style: normal;
 
 }
+
+div {
+    border: 1px solid green;
+}
+
+main, .banner, .form-section,
+.banner-logo, .banner-attribution,
+form, .form-head-text,
+.form-inputs-inputs,
+.first-col, .second-col,
+.form-row, .form-inputs {
+    display: flex;
+}
+
+main {
+    height: 100vh;
+}
+
+.banner, .banner-logo,
+form, .form-head-text,
+.form-inputs, .submit-section,
+.first-col, .second-col,
+.form-row, .form-input-header {
+    flex:1;
+}
+
+.form-inputs-inputs {
+    flex: 4;
+}
+
+.banner, .form-section,
+form, .first-col,
+.second-col, .form-row,
+.form-inputs {
+    flex-direction: column;
+}
+.banner-logo, .banner-attribution,
+.form-head-text {
+    align-items: flex-end;
+}
+
+.banner-attribution, .form-section {
+    flex: 2;
+}
+
+.banner-attribution {
+    justify-content: center;
+}
+
+form {
+    padding-left: 40px;
+    padding-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
