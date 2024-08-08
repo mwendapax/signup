@@ -42,7 +42,11 @@ main {
     height: 100vh;
 }
 
-.banner, .banner-logo,
+.banner {
+    flex: 1.2;
+}
+
+.banner-logo,
 form, .form-head-text,
 .form-inputs, .submit-section,
 .first-col, .second-col,
