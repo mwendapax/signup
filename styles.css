@@ -171,6 +171,14 @@ main {
 button {
     background-color: #596D48;
     color: #FFFFFF;
+    border: 1px solid #596D48;
+}
+
+button:hover,
+button:focus {
+    border: 1px solid #596D48;
+    background-color: #FFFFFF;
+    color: #596D48;
 }
 
 .logo {
