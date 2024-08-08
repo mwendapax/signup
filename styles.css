@@ -103,6 +103,10 @@ input {
     width: auto;
 }
 
+.form-inputs-inputs {
+    gap: 30px;
+}
+
 /* Colours */
 
 main {
