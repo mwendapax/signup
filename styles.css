@@ -81,6 +81,11 @@ input {
     width: 100%;
 }
 
+.banner {
+    background: url(./assets/photos/halie-west-25xggax4bSA-unsplash.png);
+    background-size: 100vh;
+}
+
 /* Colours */
 
 main {
