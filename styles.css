@@ -128,6 +128,10 @@ button {
 
 /* Colours */
 
+.banner-attribution, a {
+    color: #F9FAFB;
+}
+
 main {
     background-color: #F9FAFB;
 }
