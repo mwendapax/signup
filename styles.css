@@ -34,7 +34,8 @@ main, .banner, .form-section,
 form, .form-head-text,
 .form-inputs-inputs,
 .first-col, .second-col,
-.form-row, .form-inputs {
+.form-row, .form-inputs,
+.logo {
     display: flex;
 }
 
@@ -50,7 +51,8 @@ main {
 form, .form-head-text,
 .form-inputs, .submit-section,
 .first-col, .second-col,
-.form-row, .form-input-header {
+.form-row, .form-input-header,
+.logo {
     flex:1;
 }
 
@@ -64,6 +66,7 @@ form, .first-col,
 .form-inputs {
     flex-direction: column;
 }
+
 .banner-logo, .banner-attribution,
 .form-head-text {
     align-items: flex-end;
@@ -73,7 +76,7 @@ form, .first-col,
     flex: 2;
 }
 
-.banner-attribution {
+.banner-attribution, .logo {
     justify-content: center;
 }
 
@@ -88,6 +91,16 @@ input {
 .banner {
     background: url(./assets/photos/halie-west-25xggax4bSA-unsplash.png);
     background-size: 100vh;
+}
+
+.logo {
+    height: 100px;
+    padding-block: 5px;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
 }
 
 /* Colours */
@@ -110,6 +123,9 @@ button {
     color: #FFFFFF;
 }
 
+.logo {
+    background-color: rgba(15, 15, 15, .4);
+}
 
 input:focus {
     border: 3px solid #697bAF;
