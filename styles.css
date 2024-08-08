@@ -37,6 +37,10 @@ button, form a {
     font-weight: 600;
 }
 
+h1 {
+    font-size: large;
+}
+
 /* Layout */
 
 
@@ -127,8 +131,12 @@ button {
 
 /* Colours */
 
+h1 {
+    color: rgba(37, 43, 31, .5);
+}
+
 .banner-attribution, a {
-    color: #F9FAFB;
+    color: #FFFFFF;
 }
 
 main {
