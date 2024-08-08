@@ -85,6 +85,10 @@ main {
 
 .form-inputs {
     background-color: #FFFFFF;
+}
+
+.form-head-text, .form-inputs,
+.submit-section {
     padding-right: 20%;
 }
 
