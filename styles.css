@@ -77,6 +77,10 @@ form {
     padding-left: 40px;
 }
 
+input {
+    width: 100%;
+}
+
 /* Colours */
 
 main {
